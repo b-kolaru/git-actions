@@ -5,3 +5,10 @@ variable "vm_password" {
 variable "username" {
   default = "adminuser"
 }
+
+variable "name" {
+  default = "myTFResource"
+}
+variable "location" {
+  default = "Eastus2"
+}
