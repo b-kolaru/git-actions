@@ -35,7 +35,7 @@ jobs:
         ARM_CLIENT_ID: ${{ secrets.TEST_CLIENT_ID }}
         ARM_CLIENT_SECRET: ${{ secrets.TEST_CLIENT_SECRET }}
         ARM_TENANT_ID: ${{ secrets.TEST_TENANT_ID }}
-        ARM_SUBSCRIPTION_ID: ${{ secrets.TEST_SUBSCRIPTION_ID }}
+        ARM_SUBSCRIPTION_ID: ${{ secrets.TEST_SUB_ID }}
         RESOURCE_GROUP: ${{ secrets.RESOURCE_GROUP }}
         STORAGE_ACCOUNT: ${{ secrets.STORAGE_ACCOUNT }}
         CONTAINER_NAME: ${{ secrets.CONTAINER_NAME }}
